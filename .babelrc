@@ -1,0 +1,20 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",{
+                // "modules": false,
+                // "useBuiltIns": "usage",
+                // "corejs": "3.24.0",
+                // "targets": {
+                //     "ie": 10
+                // }
+            }
+        ]
+    ],
+    // "plugins": [
+    //     ["@babel/plugin-transform-runtime"]
+    // ],
+    // "ignore": [
+    //     "node_mdules/**"
+    // ]
+}

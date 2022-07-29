@@ -1,0 +1,45 @@
+{
+  "name": "react-components",
+  "version": "1.0.0",
+  "description": "",
+  "authors": {
+    "name": "yzf",
+    "email": "zfyan1992@sina.com"
+  },
+  "main": "dist/cjs.index.js",
+  "module": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "file": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "antd": "^4.22.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@types/react": "^18.0.15",
+    "core-js": "^3.24.0",
+    "postcss": "^8.4.14",
+    "rollup": "^2.77.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}

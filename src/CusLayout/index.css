@@ -1,0 +1,11 @@
+.wrap{
+    background: red;
+    width: 100px;
+    height: 500px;
+}
+
+.ctn{
+    background: yellow;
+    width: 50px;
+    height: 200px;
+}
